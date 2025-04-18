@@ -1,6 +1,6 @@
 import type { Category } from "@/types/category"
 
-const API_URL = "http://localhost:8181/api/categories"
+const API_URL = "http://localhost:8080/api/categories"
 
 export async function getAllCategories(): Promise<Category[]> {
   try {
