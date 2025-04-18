@@ -1,4 +1,4 @@
-export const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8181';
+export const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || 'http://localhost:8080';
 
 export const API_ENDPOINTS = {
   users: `${API_BASE_URL}${process.env.NEXT_PUBLIC_API_ENDPOINT_USERS || 'api/users/all'}`,
