@@ -1,7 +1,7 @@
 import type { Document } from "@/types/document"
 import { API_BASE_URL } from '@/lib/config';
 
-const API_URL = "http://localhost:8181/api/documents"
+const API_URL = "http://localhost:8080/api/documents"
 
 export interface DocumentUpdateRequest {
   title: string;
