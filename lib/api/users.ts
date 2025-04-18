@@ -83,7 +83,7 @@ export async function login(email: string, password: string): Promise<LoginRespo
 
 export async function getAllUsers(): Promise<User[]> {
   try {
-    const response = await fetch('http://localhost:8181/api/users/all', {
+    const response = await fetch('http://localhost:8080/api/users/all', {
       method: 'GET',
       headers: {
         'Accept': 'application/json',
