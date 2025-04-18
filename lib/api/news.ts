@@ -1,6 +1,6 @@
 import type { News } from "@/types/news"
 
-const API_URL = "http://localhost:8181/api/news"
+const API_URL = "http://localhost:8080/api/news"
 
 export async function getAllNews(): Promise<News[]> {
   try {
